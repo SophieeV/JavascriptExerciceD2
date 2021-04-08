@@ -11,7 +11,8 @@ alert(movies);
 
 
 function btn(){
-  document.getElementById('btn')
-  alert ('' + 'ajouté au tableau')
+  let NewMovie = document.getElementById('input');
+  alert (NewMovie + 'ajouté au tableau')
+  console.log
 }
 //appuyer sur le bouton ajouter (btn) la value de l'input doit s'ajouter au tableau
